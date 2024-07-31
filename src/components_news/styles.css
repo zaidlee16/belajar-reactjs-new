@@ -1,0 +1,76 @@
+/* Gaya untuk latar belakang aplikasi */
+.app {
+  color: #fff; /* Warna teks putih */
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+}
+
+.card-news {
+  display: flex;
+}
+
+/* Gaya untuk judul */
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Gaya untuk daftar berita */
+.news-list {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* Gaya untuk kartu berita */
+.news-card {
+  /* background-color: #1e1e1e; */
+  border: 1px solid #444; /* Border abu-abu gelap */
+  border-radius: 16px;
+  width: 220px;
+  /* gap: 10px; */
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gaya untuk gambar kartu berita */
+.news-card_image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Gaya untuk konten kartu berita */
+/* .news-card_content {
+  padding: 15px;
+} */
+
+/* Gaya untuk judul kartu berita */
+.news-card_title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Gaya untuk deskripsi kartu berita */
+.news-card_description {
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  color: #ccc;
+}
+
+/* Gaya untuk link kartu berita */
+.news-card_link {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.news-card_link:hover {
+  text-decoration: underline;
+}
